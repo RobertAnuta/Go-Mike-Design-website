@@ -652,7 +652,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn {
     font-family: "helvetica";
@@ -691,9 +690,9 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
+h1 {
+    font-size: 26px;
+    /* font-family: "Open Sans"; */
 }
 
 .cta-hero {
@@ -1075,6 +1074,28 @@ h4 {
         height: 320px;
     }
 }
+
+/* The changes added to initial version */
+.col-xs-12,
+h2 {
+    font-size: 18px;
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    padding: 10px 10px 20px 10px;
+
+}
+
+.footer_contact__width {
+    min-width: 200px;
+}
+
 
 @media (max-width: 400px) {
     .bloc {
