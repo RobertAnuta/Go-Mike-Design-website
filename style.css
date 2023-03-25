@@ -678,7 +678,7 @@ label,
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -686,8 +686,8 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h1 {
@@ -706,7 +706,7 @@ h1 {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -723,7 +723,7 @@ h3 {
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -1078,12 +1078,25 @@ h4 {
 /* The changes added to initial version */
 .col-xs-12,
 h2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .col-sm-12,
 h2 {
-    font-size: 24px;
+    font-size: 16px;
+}
+
+.font--16 {
+    font-size: 16px !important;
+}
+
+.font--24 {
+    font-size: 24px !important;
+}
+
+.color--black14 {
+    color: #000000;
+    font-size: 14px;
 }
 
 .d-flex-row {
@@ -1099,22 +1112,6 @@ h2 {
 
 .footer_contact__width {
     min-width: 200px;
-}
-
-.et-icon-browser {
-    font-family: et-line;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block;
-}
-
-.et-icon-browser:before {
-    content: "\e00c"
 }
 
 .icon-lg {
