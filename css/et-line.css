@@ -25,8 +25,8 @@
     content: "\e01c"
 }
 
-.et-icon-edit:before {
-    content: "\e01c"
+.et-icon-browser:before {
+    content: "\e00c"
 }
 
 .et-icon-presentation:before {
